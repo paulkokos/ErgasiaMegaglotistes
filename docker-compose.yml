@@ -1,0 +1,28 @@
+# Use root/example as user/password credentials
+version: '3.1'
+
+services:
+  web:
+    httpd
+  db:
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_USERNAME: root
+      MYSQL_ROOT_PASSWORD: examplepass
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+phpmyadmin:
+  image: corbinu/docker-phpmyadmin
+  links:
+    - wordpress_db:mysql
+  ports:
+    - 8181:80
+  environment:
+    MYSQL_USERNAME: root
+    MYSQL_ROOT_PASSWORD: examplepass
