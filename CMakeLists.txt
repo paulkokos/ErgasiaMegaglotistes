@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 3.5.1)
 project(ErgasiaMetaglotistes)
 FIND_PACKAGE(BISON REQUIRED)
 set(CMAKE_CXX_STANDARD 11)
-add_executable(ErgasiaMetaglotistes ErgasiaMetaglotistes.cpp)
 #SET(BisonOutput ${CMAKE_SOURCE_DIR}/src/rcdgen/parser.cpp)
 #IF(BISON_FOUND)
 #    ADD_CUSTOM_COMMAND(
@@ -26,6 +25,5 @@ IF(FLEX_FOUND)
             COMMENT "Generating scanner.cpp"
     )
 ENDIF()
-
-
 ADD_LIBRARY(MyLib ${FlexOutput})
+add_executable(ErgasiaMetaglotistes ErgasiaMetaglotistes.cpp)
