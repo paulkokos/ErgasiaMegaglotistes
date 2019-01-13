@@ -24,10 +24,11 @@ or ret_print("KeyWord_OR");
 "<>" ret_print("NEQ");
 
 \n line_number+=1;
-"+" ret_print("");
-"-" ret_print("");
-"*" ret_print("");
+"+" ret_print("Addition");
+"-" ret_print("Subtruction");
+"*" ret_print("Multiplication");
 "/" ret_print("Division");
+"%" ret_print("Modulo");
 
 [ \t\n]+ printf( "Unrecognizedcharacter: %s\n", yytext);
 %%
