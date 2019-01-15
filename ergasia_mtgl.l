@@ -21,7 +21,8 @@ if ret_print("Control_Structure_if");
 and ret_print("KeyWord_AND");
 or ret_print("KeyWord_OR");
 ">=" ret_print("GEQ");
-"<>" ret_print("NEQ");
+"<=" ret_print("LEQ"); //Wrong ?
+"!=" ret_print("NEQ");
 
 \n line_number+=1;
 "+" ret_print("Addition");
