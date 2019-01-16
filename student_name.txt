@@ -1,44 +1,40 @@
-metavlhth($):<?php$txt=	ASSIGN
-"Hellowor	KeyWord_OR
-ld!";$x=	ASSIGN
-5;$y=	ASSIGN
-10.5;?>outputmetavlhth(echo):<?php$txt=	ASSIGN
-"Haveaniceday!";echo"Ilove$txt!";?>outputme2metavlhtes(x,y):<?php$x=	ASSIGN
-5;$y=	ASSIGN
-4;echo$x+	 Addition 
-$y;?>dhlwsh(print):<?phpprint"<h2>PHPisFun!</	 Division 
-h2>";print"Hellowor	KeyWord_OR
-ld!<br>";print"I'mabouttolearnPHP!";?>(string):<?php$x=	ASSIGN
-"Hellowor	KeyWord_OR
-ld!";$y=	ASSIGN
-'Hellowor	KeyWord_OR
-ld!';echo$x;echo"<br>";echo$y;?>(integer):<?php$x=	ASSIGN
-5985;var_dump($x);?>(float):<?php$x=	ASSIGN
-10.365;var_dump($x);?>vasikesarithmitikesprakseis(+	 Addition 
-,-	 Substruction 
-,*	 Multiplication 
-,/	 Division 
-,%	 Modulo 
-):<?php$x=	ASSIGN
-10;$y=	ASSIGN
-6;echo$x+	 Addition 
-$y;?><?php$x=	ASSIGN
-10;$y=	ASSIGN
-6;echo$x-	 Substruction 
-$y;?><?php$x=	ASSIGN
-10;$y=	ASSIGN
-6;echo$x*	 Multiplication 
-$y;?><?php$x=	ASSIGN
-10;$y=	ASSIGN
-6;echo$x/	 Division 
-$y;?><?php$x=	ASSIGN
-10;$y=	ASSIGN
-6;echo$x%	 Modulo 
-$y;?>synarthsh(function):<?phpfunctionwriteMsg(){echo"Hellowor	KeyWord_OR
-ld!";}writeMsg();/	 Division 
-/	 Division 
-callthefunction?><?phpif	Control_Structure_if
-(true){echo"Hellowor	KeyWord_OR
-ld";}elseif	Control_Structure_if
-(!true){echo"HellonotWor	KeyWord_OR
-ld";}else{echo"Nothelloatall";}?>
+<?     ".";    _ "1.";     "4 /	 Division 
+.";$ 5 =	ASSIGN
+ " !";$ 6 =	ASSIGN
+ 5;    $ 7 =	ASSIGN
+ 10.5;      ( $ 8 =	ASSIGN
+ )    {         0;    }?><?$ 14 =	ASSIGN
+ "   !"; "  $!";?>  2  (,):<?$ 21 =	ASSIGN
+ 5;$ 22 =	ASSIGN
+ 4; $ 23 +	 Addition 
+ $;?> ():<? "<2>  !<29 /	 Division 
+2>"; " !<>"; "'    !";?>():<? $ 37 =	ASSIGN
+ " !";$ 38 =	ASSIGN
+ ' !'; $; "<>";  $;?>():<? $ 48 =	ASSIGN
+ 5985;_($);?>():<? $ 55 =	ASSIGN
+ 10.365;_($);?>   (59 +	 Addition 
+,59 -	 Substruction 
+,59 *	 Multiplication 
+,59 /	 Division 
+,59 %	 Modulo 
+):<?$ 62 =	ASSIGN
+ 10;  $ 63 =	ASSIGN
+ 6; $ 65 +	 Addition 
+ $;?>  <?$ 69 =	ASSIGN
+ 10;  $ 70 =	ASSIGN
+ 6; $ 72 -	 Substruction 
+ $;?> <?$ 76 =	ASSIGN
+ 10;  $ 77 =	ASSIGN
+ 6; $ 79 *	 Multiplication 
+ $;?>  <?$ 83 =	ASSIGN
+ 10;  $ 84 =	ASSIGN
+ 6; $ 86 /	 Division 
+ $;?>  <?$ 90 =	ASSIGN
+ 10;  $ 91 =	ASSIGN
+ 6; $ 93 %	 Modulo 
+ $;?>   ():<? () {     " !";}(); 104 /	 Division 
+104 /	 Division 
+   ?><?107 if	Control_Structure_if
+ () { " ";} 109 else if	ELSE IF STATEMENT
+ (!) { "  ";} 111 else	ELSE STATEMENT
+ { "   ";}?>114        0 Lines,      150 Words,      533 Characters
