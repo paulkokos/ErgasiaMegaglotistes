@@ -1,0 +1,20 @@
+metavlhth($):<?php$txt="Hellowor	KeyWord_OR
+ld!";$x=5;$y=10.5;?>outputmetavlhth(echo):<?php$txt="Haveaniceday!";echo"Ilove$txt!";?>outputme2metavlhtes(x,y):<?php$x=5;$y=4;echo$x+	 Addition 
+$y;?>dhlwsh(print):<?phpprint"<h2>PHPisFun!</	Division
+h2>";print"Hellowor	KeyWord_OR
+ld!<br>";print"I'mabouttolearnPHP!";?>(string):<?php$x="Hellowor	KeyWord_OR
+ld!";$y='Hellowor	KeyWord_OR
+ld!';echo$x;echo"<br>";echo$y;?>(integer):<?php$x=5985;var_dump($x);?>(float):<?php$x=10.365;var_dump($x);?>vasikesarithmitikesprakseis(+	 Addition 
+,-	 Substruction 
+,*	 Multiplication 
+,/	Division
+,%	 Modulo 
+):<?php$x=10;$y=6;echo$x+	 Addition 
+$y;?><?php$x=10;$y=6;echo$x-	 Substruction 
+$y;?><?php$x=10;$y=6;echo$x*	 Multiplication 
+$y;?><?php$x=10;$y=6;echo$x/	Division
+$y;?><?php$x=10;$y=6;echo$x%	 Modulo 
+$y;?>synarthsh(function):<?phpfunctionwriteMsg(){echo"Hellowor	KeyWord_OR
+ld!";}writeMsg();/	Division
+/	Division
+callthefunction?>
