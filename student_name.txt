@@ -1,20 +1,44 @@
-metavlhth($):<?php$txt="Hellowor	KeyWord_OR
-ld!";$x=5;$y=10.5;?>outputmetavlhth(echo):<?php$txt="Haveaniceday!";echo"Ilove$txt!";?>outputme2metavlhtes(x,y):<?php$x=5;$y=4;echo$x+	 Addition 
-$y;?>dhlwsh(print):<?phpprint"<h2>PHPisFun!</	Division
+metavlhth($):<?php$txt=	ASSIGN
+"Hellowor	KeyWord_OR
+ld!";$x=	ASSIGN
+5;$y=	ASSIGN
+10.5;?>outputmetavlhth(echo):<?php$txt=	ASSIGN
+"Haveaniceday!";echo"Ilove$txt!";?>outputme2metavlhtes(x,y):<?php$x=	ASSIGN
+5;$y=	ASSIGN
+4;echo$x+	 Addition 
+$y;?>dhlwsh(print):<?phpprint"<h2>PHPisFun!</	 Division 
 h2>";print"Hellowor	KeyWord_OR
-ld!<br>";print"I'mabouttolearnPHP!";?>(string):<?php$x="Hellowor	KeyWord_OR
-ld!";$y='Hellowor	KeyWord_OR
-ld!';echo$x;echo"<br>";echo$y;?>(integer):<?php$x=5985;var_dump($x);?>(float):<?php$x=10.365;var_dump($x);?>vasikesarithmitikesprakseis(+	 Addition 
+ld!<br>";print"I'mabouttolearnPHP!";?>(string):<?php$x=	ASSIGN
+"Hellowor	KeyWord_OR
+ld!";$y=	ASSIGN
+'Hellowor	KeyWord_OR
+ld!';echo$x;echo"<br>";echo$y;?>(integer):<?php$x=	ASSIGN
+5985;var_dump($x);?>(float):<?php$x=	ASSIGN
+10.365;var_dump($x);?>vasikesarithmitikesprakseis(+	 Addition 
 ,-	 Substruction 
 ,*	 Multiplication 
-,/	Division
+,/	 Division 
 ,%	 Modulo 
-):<?php$x=10;$y=6;echo$x+	 Addition 
-$y;?><?php$x=10;$y=6;echo$x-	 Substruction 
-$y;?><?php$x=10;$y=6;echo$x*	 Multiplication 
-$y;?><?php$x=10;$y=6;echo$x/	Division
-$y;?><?php$x=10;$y=6;echo$x%	 Modulo 
+):<?php$x=	ASSIGN
+10;$y=	ASSIGN
+6;echo$x+	 Addition 
+$y;?><?php$x=	ASSIGN
+10;$y=	ASSIGN
+6;echo$x-	 Substruction 
+$y;?><?php$x=	ASSIGN
+10;$y=	ASSIGN
+6;echo$x*	 Multiplication 
+$y;?><?php$x=	ASSIGN
+10;$y=	ASSIGN
+6;echo$x/	 Division 
+$y;?><?php$x=	ASSIGN
+10;$y=	ASSIGN
+6;echo$x%	 Modulo 
 $y;?>synarthsh(function):<?phpfunctionwriteMsg(){echo"Hellowor	KeyWord_OR
-ld!";}writeMsg();/	Division
-/	Division
-callthefunction?>
+ld!";}writeMsg();/	 Division 
+/	 Division 
+callthefunction?><?phpif	Control_Structure_if
+(true){echo"Hellowor	KeyWord_OR
+ld";}elseif	Control_Structure_if
+(!true){echo"HellonotWor	KeyWord_OR
+ld";}else{echo"Nothelloatall";}?>

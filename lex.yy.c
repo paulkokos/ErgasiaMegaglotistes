@@ -378,8 +378,8 @@ static void yy_fatal_error (yyconst char msg[]  );
 	*yy_cp = '\0'; \
 	(yy_c_buf_p) = yy_cp;
 
-#define YY_NUM_RULES 18
-#define YY_END_OF_BUFFER 19
+#define YY_NUM_RULES 26
+#define YY_END_OF_BUFFER 27
 /* This struct is not used in this scanner,
    but its presence is necessary. */
 struct yy_trans_info
@@ -387,12 +387,13 @@ struct yy_trans_info
 	flex_int32_t yy_verify;
 	flex_int32_t yy_nxt;
 	};
-static yyconst flex_int16_t yy_accept[34] =
+static yyconst flex_int16_t yy_accept[42] =
     {   0,
-        0,    0,    0,    0,   19,   18,   17,   11,   18,   16,
-       14,   12,   13,   15,   18,   18,   18,   18,   18,    4,
-        3,    4,   17,   10,    1,    9,    8,    0,    5,    7,
-        2,    6,    0
+        0,    0,    0,    0,   27,   26,   25,   19,   26,   24,
+       22,   20,   21,   23,   26,   12,   26,   26,   26,   26,
+        4,    3,    4,   25,    9,   17,   13,   15,   14,   16,
+        1,   18,   10,   11,    8,    0,    5,    7,    2,    6,
+        0
     } ;
 
 static yyconst YY_CHAR yy_ec[256] =
@@ -433,40 +434,44 @@ static yyconst YY_CHAR yy_meta[20] =
         1,    1,    1,    1,    1,    1,    1,    1,    1
     } ;
 
-static yyconst flex_uint16_t yy_base[35] =
+static yyconst flex_uint16_t yy_base[43] =
     {   0,
-        0,    0,   17,   18,   40,   41,   23,   25,   28,   41,
-       41,   41,   41,   32,   25,   25,   18,   19,   14,   41,
-       41,   23,   27,   41,   41,   41,   41,   17,   41,   41,
-       41,   41,   41,   21
+        0,    0,   17,   18,   47,   48,   23,   25,   35,   48,
+       34,   22,   23,   24,   33,   32,   31,   24,   25,   20,
+       48,   48,   29,   34,   48,   48,   48,   48,   48,   48,
+       48,   48,   48,   48,   48,   18,   48,   48,   48,   48,
+       48,   21
     } ;
 
-static yyconst flex_int16_t yy_def[35] =
+static yyconst flex_int16_t yy_def[43] =
     {   0,
-       33,    1,   34,   34,   33,   33,   33,   33,   33,   33,
-       33,   33,   33,   33,   33,   33,   33,   33,   33,   33,
-       33,   33,   33,   33,   33,   33,   33,   33,   33,   33,
-       33,   33,    0,   33
+       41,    1,   42,   42,   41,   41,   41,   41,   41,   41,
+       41,   41,   41,   41,   41,   41,   41,   41,   41,   41,
+       41,   41,   41,   41,   41,   41,   41,   41,   41,   41,
+       41,   41,   41,   41,   41,   41,   41,   41,   41,   41,
+        0,   41
     } ;
 
-static yyconst flex_uint16_t yy_nxt[61] =
+static yyconst flex_uint16_t yy_nxt[68] =
     {   0,
         6,    7,    8,    9,   10,   11,   12,   13,   14,   15,
-        6,   16,   17,    6,    6,   18,    6,   19,    6,   21,
-       21,   20,   22,   22,   23,   23,   23,   23,   23,   23,
-       32,   31,   30,   29,   28,   27,   26,   25,   24,   33,
-        5,   33,   33,   33,   33,   33,   33,   33,   33,   33,
-       33,   33,   33,   33,   33,   33,   33,   33,   33,   33
+       16,   17,   18,    6,    6,   19,    6,   20,    6,   22,
+       22,   21,   23,   23,   24,   24,   24,   24,   27,   31,
+       29,   40,   28,   30,   32,   24,   24,   39,   38,   37,
+       36,   35,   34,   33,   26,   25,   41,    5,   41,   41,
+       41,   41,   41,   41,   41,   41,   41,   41,   41,   41,
+       41,   41,   41,   41,   41,   41,   41
     } ;
 
-static yyconst flex_int16_t yy_chk[61] =
+static yyconst flex_int16_t yy_chk[68] =
     {   0,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    3,
-        4,   34,    3,    4,    7,    7,    8,    8,   23,   23,
-       28,   22,   19,   18,   17,   16,   15,   14,    9,    5,
-       33,   33,   33,   33,   33,   33,   33,   33,   33,   33,
-       33,   33,   33,   33,   33,   33,   33,   33,   33,   33
+        4,   42,    3,    4,    7,    7,    8,    8,   12,   14,
+       13,   36,   12,   13,   14,   24,   24,   23,   20,   19,
+       18,   17,   16,   15,   11,    9,    5,   41,   41,   41,
+       41,   41,   41,   41,   41,   41,   41,   41,   41,   41,
+       41,   41,   41,   41,   41,   41,   41
     } ;
 
 static yy_state_type yy_last_accepting_state;
@@ -486,11 +491,14 @@ char *yytext;
 #line 1 "ergasia_mtgl.l"
 #line 3 "ergasia_mtgl.l"
     #include <stdio.h>
+    int chars =0;
+    int words =0;
+    int lines =0;
     int line_number=1;
     void ret_print(char *token_type);
     void yyerror();
 
-#line 494 "lex.yy.c"
+#line 502 "lex.yy.c"
 
 #define INITIAL 0
 #define COMMENT1 1
@@ -709,9 +717,10 @@ YY_DECL
 		}
 
 	{
-#line 15 "ergasia_mtgl.l"
+#line 19 "ergasia_mtgl.l"
 
-#line 715 "lex.yy.c"
+
+#line 724 "lex.yy.c"
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -738,13 +747,13 @@ yy_match:
 			while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 				{
 				yy_current_state = (int) yy_def[yy_current_state];
-				if ( yy_current_state >= 34 )
+				if ( yy_current_state >= 42 )
 					yy_c = yy_meta[(unsigned int) yy_c];
 				}
 			yy_current_state = yy_nxt[yy_base[yy_current_state] + (unsigned int) yy_c];
 			++yy_cp;
 			}
-		while ( yy_base[yy_current_state] != 41 );
+		while ( yy_base[yy_current_state] != 48 );
 
 yy_find_action:
 		yy_act = yy_accept[yy_current_state];
@@ -770,98 +779,138 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 16 "ergasia_mtgl.l"
+#line 21 "ergasia_mtgl.l"
 { BEGIN(COMMENT1); }
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 17 "ergasia_mtgl.l"
+#line 22 "ergasia_mtgl.l"
 { BEGIN(INITIAL); }
 	YY_BREAK
 case 3:
 /* rule 3 can match eol */
 YY_RULE_SETUP
-#line 18 "ergasia_mtgl.l"
+#line 23 "ergasia_mtgl.l"
 { }
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 19 "ergasia_mtgl.l"
+#line 24 "ergasia_mtgl.l"
 { }
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 20 "ergasia_mtgl.l"
+#line 25 "ergasia_mtgl.l"
 ret_print("Control_Structure_if");
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 21 "ergasia_mtgl.l"
+#line 26 "ergasia_mtgl.l"
 ret_print("KeyWord_AND");
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 22 "ergasia_mtgl.l"
+#line 27 "ergasia_mtgl.l"
 ret_print("KeyWord_OR");
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 23 "ergasia_mtgl.l"
+#line 28 "ergasia_mtgl.l"
 ret_print("GEQ");
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 24 "ergasia_mtgl.l"
+#line 29 "ergasia_mtgl.l"
 ret_print("NEQ");
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 25 "ergasia_mtgl.l"
+#line 30 "ergasia_mtgl.l"
 ret_print("NEQ");
 	YY_BREAK
 case 11:
-/* rule 11 can match eol */
 YY_RULE_SETUP
-#line 27 "ergasia_mtgl.l"
-line_number+=1;
+#line 31 "ergasia_mtgl.l"
+ret_print("EQUAL");
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
-#line 28 "ergasia_mtgl.l"
-ret_print(" Addition ");
+#line 32 "ergasia_mtgl.l"
+ret_print("ASSIGN");
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
-#line 29 "ergasia_mtgl.l"
-ret_print(" Substruction ");
+#line 33 "ergasia_mtgl.l"
+ret_print("ASSIGNADDBYONE");
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
-#line 30 "ergasia_mtgl.l"
-ret_print(" Multiplication ");
+#line 34 "ergasia_mtgl.l"
+ret_print("ASSIGNSUBSTRACTBYONE");
 	YY_BREAK
 case 15:
 YY_RULE_SETUP
-#line 31 "ergasia_mtgl.l"
-ret_print("Division");
+#line 35 "ergasia_mtgl.l"
+ret_print("ASSIGNADD");
 	YY_BREAK
 case 16:
 YY_RULE_SETUP
-#line 32 "ergasia_mtgl.l"
-ret_print(" Modulo ");
+#line 36 "ergasia_mtgl.l"
+ret_print("ASSIGNSUBSTRACT");
 	YY_BREAK
 case 17:
-/* rule 17 can match eol */
 YY_RULE_SETUP
-#line 34 "ergasia_mtgl.l"
-printf( "Unrecognizedcharacter: %s\n", yytext);
+#line 37 "ergasia_mtgl.l"
+ret_print("ASSIGNMULTIPLY");
 	YY_BREAK
 case 18:
 YY_RULE_SETUP
-#line 35 "ergasia_mtgl.l"
+#line 38 "ergasia_mtgl.l"
+ret_print("ASSIGNDIVIDE");
+	YY_BREAK
+case 19:
+/* rule 19 can match eol */
+YY_RULE_SETUP
+#line 40 "ergasia_mtgl.l"
+line_number+=1;
+	YY_BREAK
+case 20:
+YY_RULE_SETUP
+#line 41 "ergasia_mtgl.l"
+ret_print(" Addition ");
+	YY_BREAK
+case 21:
+YY_RULE_SETUP
+#line 42 "ergasia_mtgl.l"
+ret_print(" Substruction ");
+	YY_BREAK
+case 22:
+YY_RULE_SETUP
+#line 43 "ergasia_mtgl.l"
+ret_print(" Multiplication ");
+	YY_BREAK
+case 23:
+YY_RULE_SETUP
+#line 44 "ergasia_mtgl.l"
+ret_print(" Division ");
+	YY_BREAK
+case 24:
+YY_RULE_SETUP
+#line 45 "ergasia_mtgl.l"
+ret_print(" Modulo ");
+	YY_BREAK
+case 25:
+/* rule 25 can match eol */
+YY_RULE_SETUP
+#line 47 "ergasia_mtgl.l"
+printf( "Unrecognizedcharacter: %s\n", yytext);
+	YY_BREAK
+case 26:
+YY_RULE_SETUP
+#line 48 "ergasia_mtgl.l"
 ECHO;
 	YY_BREAK
-#line 865 "lex.yy.c"
+#line 914 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 case YY_STATE_EOF(COMMENT1):
 	yyterminate();
@@ -1155,7 +1204,7 @@ static int yy_get_next_buffer (void)
 		while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 			{
 			yy_current_state = (int) yy_def[yy_current_state];
-			if ( yy_current_state >= 34 )
+			if ( yy_current_state >= 42 )
 				yy_c = yy_meta[(unsigned int) yy_c];
 			}
 		yy_current_state = yy_nxt[yy_base[yy_current_state] + (unsigned int) yy_c];
@@ -1183,11 +1232,11 @@ static int yy_get_next_buffer (void)
 	while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 		{
 		yy_current_state = (int) yy_def[yy_current_state];
-		if ( yy_current_state >= 34 )
+		if ( yy_current_state >= 42 )
 			yy_c = yy_meta[(unsigned int) yy_c];
 		}
 	yy_current_state = yy_nxt[yy_base[yy_current_state] + (unsigned int) yy_c];
-	yy_is_jam = (yy_current_state == 33);
+	yy_is_jam = (yy_current_state == 41);
 
 		return yy_is_jam ? 0 : yy_current_state;
 }
@@ -1863,7 +1912,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 35 "ergasia_mtgl.l"
+#line 48 "ergasia_mtgl.l"
 
 
 void ret_print(char *token_type)
@@ -1873,9 +1922,11 @@ void ret_print(char *token_type)
 }
 void yyerror(char *message)
 {
-fprintf(yyout,"Error: \"%s\" in line %d. Token = %s\n",
-    message,line_number,yytext);
+    fprintf(yyout,"Error: \"%s\" in line %d. Token = %s\n",message,line_number,yytext);
     exit(1);
+}
+void countResults (){
+    fprintf(yyout,"%8d Lines, %8d Words, %8d Characters",lines,words,chars);
 }
 int main(int argc, char *argv[])
 {

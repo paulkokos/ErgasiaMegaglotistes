@@ -101,3 +101,12 @@ synarthsh (function):
 
 	writeMsg(); // call the function
 ?>
+<?php
+	if (true) {
+		echo "Hello world";
+	} else if (!true) {
+		echo "Hello not World";
+	} else {
+		echo "Not hello at all";
+	}
+?>
