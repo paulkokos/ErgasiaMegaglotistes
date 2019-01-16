@@ -52,9 +52,24 @@ variable        $[A-Za-z]
 "/"             ret_print(" Division ");
 "%"             ret_print(" Modulo ");
 
-[\t\n]+        printf("%d  Unrecognized character: %s\n",yylineno,yytext);
+"{"             ret_print("Opening Brackets");      
+"}"             ret_print("Closing Brackets");
+
+^\<\?php$          ret_print("Opening php script");
+^\?\>$          ret_print("Closure php Script");
+
+[echo]+          ret_print("Output Function");
+[print]+         ret_print("Output Function");
+[printf]+        ret_print("Output Function");
+
+[\t\n]+         printf("%d  Unrecognized character: %s\n",yylineno,yytext);
 [a-zA-Z]+       { words++; chars+=strlen(yytext); }
-\n              { BEGIN(NEWLINE);chars++; lines++; line_number+=1;}
+\n              {chars++; lines++; line_number+=1;}
+$[0-9a-z]+ |
+$\"[^"\n]+\" |
+$`[^`\n]+` |
+$'[^'\n]+'      {ret_print("Variable");}
+
 %%
 
 

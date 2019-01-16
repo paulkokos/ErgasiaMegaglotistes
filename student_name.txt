@@ -1,40 +1,128 @@
-<?     ".";    _ "1.";     "4 /	 Division 
-.";$ 5 =	ASSIGN
- " !";$ 6 =	ASSIGN
- 5;    $ 7 =	ASSIGN
- 10.5;      ( $ 8 =	ASSIGN
- )    {         0;    }?><?$ 14 =	ASSIGN
- "   !"; "  $!";?>  2  (,):<?$ 21 =	ASSIGN
- 5;$ 22 =	ASSIGN
- 4; $ 23 +	 Addition 
- $;?> ():<? "<2>  !<29 /	 Division 
-2>"; " !<>"; "'    !";?>():<? $ 37 =	ASSIGN
- " !";$ 38 =	ASSIGN
- ' !'; $; "<>";  $;?>():<? $ 48 =	ASSIGN
- 5985;_($);?>():<? $ 55 =	ASSIGN
- 10.365;_($);?>   (59 +	 Addition 
+1 <?php	Opening php script
+     ".";    _ "1.";     "4 /	 Division 
+.";5 $txt	Variable
+ 5 =	ASSIGN
+ " !";6 $x	Variable
+ 6 =	ASSIGN
+ 5;    7 $y	Variable
+ 7 =	ASSIGN
+ 10.5;      ( 8 $var	Variable
+ 8 =	ASSIGN
+ )    9 {	Opening Brackets
+         0;    11 }	Closing Brackets
+12 ?>	Closure php Script
+13 <?php	Opening php script
+14 $txt	Variable
+ 14 =	ASSIGN
+ "   !";15 echo	Output Function
+ "  15 $txt	Variable
+!";16 ?>	Closure php Script
+  2  (,):20 <?php	Opening php script
+21 $x	Variable
+ 21 =	ASSIGN
+ 5;22 $y	Variable
+ 22 =	ASSIGN
+ 4;23 echo	Output Function
+ 23 $x	Variable
+ 23 +	 Addition 
+ 23 $y	Variable
+;24 ?>	Closure php Script
+ (26 print	Output Function
+):28 <?php	Opening php script
+29 print	Output Function
+ "<29 h	Output Function
+2>  !<29 /	 Division 
+29 h	Output Function
+2>";30 print	Output Function
+ " !<>";31 print	Output Function
+ "'    !";32 ?>	Closure php Script
+():<? 37 $x	Variable
+ 37 =	ASSIGN
+ " !";38 $y	Variable
+ 38 =	ASSIGN
+ ' !';40 echo	Output Function
+ 40 $x	Variable
+;41 echo	Output Function
+ "<>"; 42 echo	Output Function
+ 42 $y	Variable
+;43 ?>	Closure php Script
+():<? 48 $x	Variable
+ 48 =	ASSIGN
+ 5985;_(49 $x	Variable
+);50 ?>	Closure php Script
+():<? 55 $x	Variable
+ 55 =	ASSIGN
+ 10.365;_(56 $x	Variable
+);57 ?>	Closure php Script
+   (59 +	 Addition 
 ,59 -	 Substruction 
 ,59 *	 Multiplication 
 ,59 /	 Division 
 ,59 %	 Modulo 
-):<?$ 62 =	ASSIGN
- 10;  $ 63 =	ASSIGN
- 6; $ 65 +	 Addition 
- $;?>  <?$ 69 =	ASSIGN
- 10;  $ 70 =	ASSIGN
- 6; $ 72 -	 Substruction 
- $;?> <?$ 76 =	ASSIGN
- 10;  $ 77 =	ASSIGN
- 6; $ 79 *	 Multiplication 
- $;?>  <?$ 83 =	ASSIGN
- 10;  $ 84 =	ASSIGN
- 6; $ 86 /	 Division 
- $;?>  <?$ 90 =	ASSIGN
- 10;  $ 91 =	ASSIGN
- 6; $ 93 %	 Modulo 
- $;?>   ():<? () {     " !";}(); 104 /	 Division 
+):61 <?php	Opening php script
+62 $x	Variable
+ 62 =	ASSIGN
+ 10;  63 $y	Variable
+ 63 =	ASSIGN
+ 6;65 echo	Output Function
+ 65 $x	Variable
+ 65 +	 Addition 
+ 65 $y	Variable
+;66 ?>	Closure php Script
+  68 <?php	Opening php script
+69 $x	Variable
+ 69 =	ASSIGN
+ 10;  70 $y	Variable
+ 70 =	ASSIGN
+ 6;72 echo	Output Function
+ 72 $x	Variable
+ 72 -	 Substruction 
+ 72 $y	Variable
+;?> 75 <?php	Opening php script
+76 $x	Variable
+ 76 =	ASSIGN
+ 10;  77 $y	Variable
+ 77 =	ASSIGN
+ 6;79 echo	Output Function
+ 79 $x	Variable
+ 79 *	 Multiplication 
+ 79 $y	Variable
+;?>  82 <?php	Opening php script
+83 $x	Variable
+ 83 =	ASSIGN
+ 10;  84 $y	Variable
+ 84 =	ASSIGN
+ 6;86 echo	Output Function
+ 86 $x	Variable
+ 86 /	 Division 
+ 86 $y	Variable
+;?>  89 <?php	Opening php script
+90 $x	Variable
+ 90 =	ASSIGN
+ 10;  91 $y	Variable
+ 91 =	ASSIGN
+ 6;93 echo	Output Function
+ 93 $x	Variable
+ 93 %	 Modulo 
+ 93 $y	Variable
+;?>   ():98 <?php	Opening php script
+ () 100 {	Opening Brackets
+    101 echo	Output Function
+ " !";102 }	Closing Brackets
+(); 104 /	 Division 
 104 /	 Division 
-   ?><?107 if	Control_Structure_if
- () { " ";} 109 else if	ELSE IF STATEMENT
- (!) { "  ";} 111 else	ELSE STATEMENT
- { "   ";}?>114        0 Lines,      150 Words,      533 Characters
+   105 ?>	Closure php Script
+106 <?php	Opening php script
+107 if	Control_Structure_if
+ () 107 {	Opening Brackets
+108 echo	Output Function
+ " ";109 }	Closing Brackets
+ 109 else if	ELSE IF STATEMENT
+ (!) 109 {	Opening Brackets
+110 echo	Output Function
+ "  ";111 }	Closing Brackets
+ 111 else	ELSE STATEMENT
+ 111 {	Opening Brackets
+112 echo	Output Function
+ "   ";113 }	Closing Brackets
+?>114        0 Lines,       81 Words,      376 Characters
